@@ -15,7 +15,7 @@
 
                         {{-- Slug --}}
                         <div>
-                            <x-input-label for="slug" :value="__('Slug')" />
+                            <x-input-label for="slug" :value="__('Name')" />
                             <x-text-input id="slug" name="slug" type="text"
                                 class="mt-1 block w-full"
                                 value="{{ old('slug') }}"
@@ -26,7 +26,7 @@
 
                         {{-- Target URL --}}
                         <div>
-                            <x-input-label for="target_url" :value="__('Target URL')" />
+                            <x-input-label for="target_url" :value="__('Link')" />
                             <x-text-input id="target_url" name="target_url" type="url"
                                 class="mt-1 block w-full"
                                 value="{{ old('target_url') }}"
